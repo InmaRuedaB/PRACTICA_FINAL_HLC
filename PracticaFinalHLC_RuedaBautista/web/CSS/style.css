@@ -1,0 +1,134 @@
+section {
+    margin: 50px;
+    border: 8px double #888;
+    border-radius: 200px 50px 200px 50px;
+    padding: 80px;
+    background-color: #ccc;
+}
+
+.art{
+    
+    margin: 10px;
+    border: 8px double #888;
+    border-radius: 200px 50px 200px 50px;
+    padding: 80px;
+    background-color: #ccc;
+    
+}
+
+
+article {
+    font-family: Verdana;
+    font-weight: 200;
+    color: #ffffff;
+    background:#925178;
+    padding: 20px;
+    margin: 0 0 25px;
+    overflow: visible;
+    border-radius: 35px 0px 35px 0px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px){
+    .cartas-espana{
+        width: 100%
+    }
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+header {
+
+    width: 100%;
+    padding: 30px 100px;
+    background: linear-gradient(45deg, white, transparent);
+}
+
+
+img{
+    width: 180px;
+    height: 120px;
+    display: block;
+    margin-left: 80%;
+
+}
+
+button {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {           
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: #DAB1F4; 
+}
+
+th, td {
+    text-align: center;
+    padding: 12px; 
+    border-bottom: 2px solid white;
+}
+
+th {
+    background-color: #DAB1F4; 
+    color: black; 
+}
+
+tr:nth-child(even) {
+    background-color: #F6C9E3; 
+}
+
+tr{
+    background-color: #cecece;
+    opacity: 70%;
+    color: black;
+}
+
+tr:hover {
+    background-color:  #E3369D ; 
+   
+}
+h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+h4 {
+
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+}
+
